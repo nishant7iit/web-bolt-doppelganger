@@ -57,6 +57,25 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        editor: {
+          background: "hsl(var(--editor-background))",
+          panel: "hsl(var(--editor-panel))",
+          border: "hsl(var(--editor-border))",
+        },
+        terminal: {
+          background: "hsl(var(--terminal-background))",
+          foreground: "hsl(var(--terminal-foreground))",
+        },
+        chat: {
+          background: "hsl(var(--chat-background))",
+          input: "hsl(var(--chat-input))",
+        },
+        preview: {
+          background: "hsl(var(--preview-background))",
+        },
+      },
+      fontFamily: {
+        mono: ['JetBrains Mono', 'Fira Code', 'Consolas', 'monospace'],
       },
       borderRadius: {
         lg: "var(--radius)",
