@@ -1,7 +1,7 @@
-import { BoltLayout } from "@/components/BoltLayout";
+import { LovableBoltLayout } from "@/components/LovableBoltLayout";
 
 const Index = () => {
-  return <BoltLayout />;
+  return <LovableBoltLayout />;
 };
 
 export default Index;
